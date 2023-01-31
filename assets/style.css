@@ -48,7 +48,7 @@ button {
 
 #btns {
   position:absolute;
-  bottom: 25px;
+  bottom: 10vh;
 }
 #back {
   border-top-left-radius: 2rem;
@@ -101,6 +101,8 @@ sup {
 }
 
 #s {
+  position:absolute;
+  top:calc(40px + 4rem);
   overflow-x: hidden;
   overflow-y: scroll;
   width: 90vw;
