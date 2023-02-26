@@ -37,13 +37,19 @@ main {
 }
 
 button {
-  padding: .5rem 1rem 1rem 1rem;
+  padding: .5rem 1rem;
   cursor: pointer;
-  background: #222;
+  background: none;
   border: none;
   color: aquamarine;
   font-size: 1.2rem;
   font-weight: bold;
+}
+.grade {
+  color:aquamarine;
+  cursor: pointer;
+  font-size:2.6rem;
+  font-weight:bolder;
 }
 
 #btns {
